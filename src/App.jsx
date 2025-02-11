@@ -1,7 +1,10 @@
+import DestinationContainer from "../DestinationContainer"
+import './App.css';
 function App() {
   return (
-    <div>
-      {/* Your code here */}
+    <div className="App">
+      <h1>Top Travel Destinations</h1>
+      <DestinationContainer />
     </div>
   )
 }
